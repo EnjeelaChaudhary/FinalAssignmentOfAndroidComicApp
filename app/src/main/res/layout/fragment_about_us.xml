@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.AboutUsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tablayout"
+        android:background="#1777CC"
+        tabTextColor="@color/black"
+        tabSelectedTextColor="@color/white"
+        tabIndicatorColor="@color/white"/>
+
+    <!--    <com.google.android.material.tabs.TabItem-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:id="@+id/tab1"-->
+    <!--        android:text="About Us"/>-->
+    <!--    <com.google.android.material.tabs.TabItem-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:id="@+id/tab2"-->
+    <!--        android:text="Connect with Us"/>-->
+    <!--    <com.google.android.material.tabs.TabItem-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:id="@+id/tab3"-->
+    <!--        android:text="Contact Us"/>-->
+    <!--    </com.google.android.material.tabs.TabLayout>-->
+
+
+    <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
