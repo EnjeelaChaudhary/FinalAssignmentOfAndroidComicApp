@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.riya.finalassignment">
+    package="com.example.enjeela.finalassignment">
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -19,7 +19,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalAssignment"
         android:usesCleartextTraffic="true">
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name="com.example.enjeela.finalassignment.LoginActivity"></activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -33,20 +33,20 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".GoogleMapActivity"
+            android:name="com.example.enjeela.finalassignment.GoogleMapActivity"
             android:label="@string/title_activity_google_map" />
-        <activity android:name=".CheckoutActivity" />
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".ViewActivity" />
-        <activity android:name=".AddToCartActivity" />
+        <activity android:name="com.example.enjeela.finalassignment.CheckoutActivity" />
+        <activity android:name="com.example.enjeela.finalassignment.RegisterActivity" />
+        <activity android:name="com.example.enjeela.finalassignment.ViewActivity" />
+        <activity android:name="com.example.enjeela.finalassignment.AddToCartActivity" />
         <activity
             android:name=".response.NavigationActivity"
             android:label="@string/title_activity_navigation"
             android:theme="@style/Theme.FinalAssignment.NoActionBar" />
         <activity
-            android:name=".ComicHomeActivity"
+            android:name="com.example.enjeela.finalassignment.ComicHomeActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name=".SplashScreenActivity">
+        <activity android:name="com.example.enjeela.finalassignment.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -59,10 +59,10 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity android:name=".AboutUs" />
-        <activity android:name=".UserStoryView" />
+        <activity android:name="com.example.enjeela.finalassignment.UserStoryView" />
         <activity android:name=".SignupActivity" />
-        <activity android:name=".NavHomeActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.example.enjeela.finalassignment.NavHomeActivity" />
+        <activity android:name="com.example.enjeela.finalassignment.MainActivity" />
     </application>
 
 </manifest>
